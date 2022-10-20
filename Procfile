@@ -1,0 +1,1 @@
+web gunicorn nammaooruspecial.wsgi:application --log-file -
