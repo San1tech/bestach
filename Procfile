@@ -1,1 +1,1 @@
-web gunicorn nammaooruspecial.wsgi:application --log-file -
+web: gunicorn nammaooruspecial.wsgi --log-file -
