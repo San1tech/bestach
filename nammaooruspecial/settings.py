@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-cj&=55(#4+4=38@9g&*z9_qkm&d-*^-gn5r2@ykm=8$-2wbu(8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['nammaspecial.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -135,7 +135,7 @@ MEDIA_ROOT = BASE_DIR / "media"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'))
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 django_heroku.settings(locals())
 
